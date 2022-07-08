@@ -1,0 +1,8 @@
+CREATE TABLE `student` (
+  `studentID` int NOT NULL,
+  `studentName` varchar(45) DEFAULT NULL,
+  `department` varchar(45) DEFAULT NULL,
+  `maths` int DEFAULT NULL,
+  `science` int DEFAULT NULL,
+  PRIMARY KEY (`studentID`)
+) ENGINE=InnoDB
